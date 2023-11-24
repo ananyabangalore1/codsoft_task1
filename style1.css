@@ -1,0 +1,201 @@
+.bg-head{
+    margin-top: 15px;
+    background-color: #FFFEFC;
+}
+.search-container{
+    display: flex;
+}
+.search-bar{
+    background-color: #F7F3ED;
+    margin-top: 10px;
+    width: 643px;
+    height: 41px;
+    padding: 5px;
+    border: 1px;
+    border-radius: 100px;
+    margin-left: -15px;
+}
+.search-button{
+    background-color: #E3BD3D;
+    color:black;
+    height: 21px;
+    width: 51px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 5px;
+    border: 0px;
+}
+.logo{
+    margin-left: 2px;
+    height: 73px;
+    width:87px;
+    display: flex;
+    padding: 10px;
+    margin-left: 5px;
+    padding: 10px; /* Add padding around the logo */
+}
+.logo img {
+    display: flex;
+    max-height: 40px; /* Define the maximum height for the logo */
+    max-width: 80px;
+}
+.text{
+    font-style:playfair;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: lighter;
+    color: #045346;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+    grid-gap: 20px; /* Adjust spacing between cards */
+}
+
+/* Style each card */
+.card {
+    padding-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.card img {
+    padding-top: 60px;
+    max-width: 60%;
+    height: auto;
+}
+.card pre {
+    padding-top: 60px;
+    max-width: 40%;
+    height: auto;
+}
+.card h3 {
+    text-align: center;
+    padding-left: 60px;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 30px;
+    color:#045346;
+    margin-left: 5px;
+}
+.card p {
+    text-align: center;
+    font: 1em sans-serif;
+    padding-left: 60px;
+    margin-left: 5px;
+    font-size: 25px;
+    color:#045346;
+    max-width: 80%;
+}
+.card h4{
+    margin-top: 30px;
+    text-align: center;
+    color: #045346;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card h5{
+    margin-top:55px;
+    text-align: center;
+    color: #045346;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card h2{
+    margin-top: 65px; 
+    margin-bottom: 5px;
+    text-align: center;
+    color: #045346;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bg-foot{
+    background-color: #FFFEFC;
+}
+/* Footer styles */
+footer {
+    background-color: #FFFEFC;
+    color: #045346;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-column {
+    width: 20%;
+    text-align: center;
+    font-style: italic
+    ;
+    padding: 10px;
+  }
+  .link{
+    text-decoration: none;
+    color: #045346;
+  }
+        body {
+            cursor: none;
+            min-height: 100%;
+            background: white;
+        }
+        
+        #myCustomCursor {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            background: rgb(255 255 255);
+            border-radius: 50%;
+            top: var(--y, 0);
+            left: var(--x, 0);
+            transform: translate(-50%, -50%);
+            mix-blend-mode: difference;
+            pointer-events: none;
+            transition-duration: 300ms;
+            transition-timing-function: ease-out;
+            z-index: 999999!important;
+        }
+        .response{
+            color: aliceblue;
+            font-size: 50px;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 4px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          .btn img {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 8px;
+          }
+          
+          .btn-primary {
+            
+            color: #045346;
+            background-color: #FFFEFC;
+            
+          }
+          
+          .btn-primary:hover {
+            color: black;
+            background-color: #FFFEFC;
+          }
+          
+          .btn-secondary {
+        
+            color:#045346;
+            background-color: #FFFEFC;
+            
+          }
+          
+          .btn-secondary:hover {
+            color: black;
+            background-color: #FFFEFC;
+          }

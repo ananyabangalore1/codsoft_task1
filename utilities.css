@@ -1,0 +1,43 @@
+.min-m-screen{
+    min-height: 10vh;
+}
+.mx-auto
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+}
+.items-cent{
+    align-items: center;
+}
+.justifybetween
+{
+    justify-content: space-between;
+}
+.navbar a{
+    padding-right:5px;
+    float: left; /* Display elements horizontally */
+    display: block; /* Display each link as a block */
+    font-family: Arial, sans-serif; /* Use a specific font */
+    text-align: center; /* Center align the text */
+    padding: 14px 16px; /* Add padding around each link */
+    text-decoration: none;
+    color: #045346;
+}
+.header{
+    display: flex;
+    min-height: 10vh;
+    min-width: auto;
+    padding: 0;
+}
+.mainimg{
+    max-height: 40px; /* Define the maximum height for the logo */
+    max-width: 80px;
+}
+.footer{
+        min-height: 10vh;
+        min-width: auto;
+        padding: 0;
+}
